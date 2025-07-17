@@ -1,5 +1,5 @@
 # house-price-prediction
-## **A machine learning regression project to predict house sale prices based on features like area, number of bedrooms and bathrooms, floor count, build year, location type, and other physical or categorical characteristics.**
+### **A machine learning regression project to predict house sale prices based on features like area, number of bedrooms and bathrooms, floor count, build year, location type, and other physical or categorical characteristics.**
 
 At the beginning of the analysis, I reviewed all available columns in the dataset, which included: `date`, `price`, `bedrooms`, `bathrooms`, `sqft_living`, `sqft_lot`, `floors`, `waterfront`, `view`, `condition`, `sqft_above`, `sqft_basement`, `yr_built`, `yr_renovated`, `street`, `city`, `statezip`, and `country`. I decided to drop the `street` and `statezip` columns early on, since they were not important for the modetl. I also dropped the `country` column after discovering that all rows indicated the same value (“USA”), making it irrelevant for prediction.
 
